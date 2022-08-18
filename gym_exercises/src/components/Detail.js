@@ -9,15 +9,15 @@ const Detail = ({ exerciseDetail }) => {
 
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail
 
-  consy extraDetail = [
+  const extraDetail = [
     {
       icon: BodyPartImage,
       name: bodyPart
-    }
+    },
     {
       icon: TargetImage,
       name: target
-    }
+    },
     {
       icon: EquipmentImage,
       name: equipment
